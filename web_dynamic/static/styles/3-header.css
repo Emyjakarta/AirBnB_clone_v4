@@ -1,0 +1,42 @@
+header {
+        width: 100%;
+        background-color: white;
+        height: 70px;
+        border-bottom: 1px solid #CCCCCC;
+        display: flex;
+        align-items: center;
+}
+
+.header-container {
+        display: flex;
+        width: 100%;
+}
+
+.logo {
+        width: 142px;
+        height: 60px;
+        background: url("../images/logo.png") no-repeat center;
+        padding-left: 20px;
+}
+
+#api_status {
+        background-color: #CCCCCC;
+        margin-left: auto;
+        margin-right: 30px;
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+        margin-top: auto;
+        margin-bottom: auto;
+}
+
+.available {
+        background-color: #ff545f !important;
+        margin-left: auto !important;
+        margin-right: 30px !important;
+        height: 40px !important;
+        width: 40px !important;
+        border-radius: 50% !important;
+        margin-top: auto !important;
+        margin-bottom: auto !important;
+}
